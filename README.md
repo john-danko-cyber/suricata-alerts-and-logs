@@ -3,6 +3,8 @@
 ## Summary
 A guided course lab where I used Suricata, an open-source IDS/IPS, to run a custom rule against a sample packet capture, trigger alerts, and analyze the output in `fast.log` and `eve.json`. I used `jq` to format the JSON log, pull out specific fields, and correlate events by `flow_id`.
 
+> Part of my [Incident Response Journal](https://github.com/john-danko-cyber/incident-response-journal) (Entry 6), which collects all my Detection and Response course labs.
+
 ## My Role
 I worked in the course's Linux lab environment (Bash shell, `analyst` account) with the provided `sample.pcap` and `custom.rules` files. I ran each command, read the logs, answered the lab's questions, and took the screenshots in this repo. The packet capture, rule file, and lab environment were provided by the course; no live network was monitored.
 
